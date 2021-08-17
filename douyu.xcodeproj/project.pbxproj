@@ -1,0 +1,1193 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A1E237926C4253100DBD24E /* ZJSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E237826C4253100DBD24E /* ZJSearchView.swift */; };
+		1A1E239326C57B2500DBD24E /* HomeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E239226C57B2500DBD24E /* HomeAPI.swift */; };
+		1A1E239826C57F6E00DBD24E /* ZJNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E239726C57F6E00DBD24E /* ZJNetworkProvider.swift */; };
+		1A1E241226C8453800DBD24E /* ZJAdviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E241126C8453800DBD24E /* ZJAdviceInfo.swift */; };
+		1A1E241826C8C5FC00DBD24E /* HomeTabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E241726C8C5FC00DBD24E /* HomeTabModel.swift */; };
+		1A1E242126C9604900DBD24E /* ZJHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E242026C9604900DBD24E /* ZJHomeViewModel.swift */; };
+		1A1E243A26CAB7A800DBD24E /* ZJHomeLiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E243926CAB7A800DBD24E /* ZJHomeLiveViewModel.swift */; };
+		1A1E244226CAB89B00DBD24E /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E244126CAB89B00DBD24E /* BaseAPI.swift */; };
+		1A68579926C162F500D6D1FB /* ZJBaseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A68579626C162F500D6D1FB /* ZJBaseCollectionCell.swift */; };
+		1A68579A26C162F500D6D1FB /* ZJBaseTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A68579726C162F500D6D1FB /* ZJBaseTableCell.swift */; };
+		1A68579B26C162F500D6D1FB /* ZJBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A68579826C162F500D6D1FB /* ZJBaseView.swift */; };
+		1A6857A026C1636400D6D1FB /* ZJHomeLiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A68579F26C1636400D6D1FB /* ZJHomeLiveCell.swift */; };
+		1A6857B026C16DB300D6D1FB /* ZJHomeLiveHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6857AF26C16DB300D6D1FB /* ZJHomeLiveHeaderView.swift */; };
+		1A6857DF26C1801E00D6D1FB /* ZJHomeBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6857DE26C1801E00D6D1FB /* ZJHomeBannerCell.swift */; };
+		1A6857ED26C1811800D6D1FB /* ZJCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6857E426C1811800D6D1FB /* ZJCarouselView.swift */; };
+		1A6857EE26C1811800D6D1FB /* ZJCarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6857E526C1811800D6D1FB /* ZJCarouselCell.swift */; };
+		1A6857EF26C1811800D6D1FB /* ZJBaseCarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6857E626C1811800D6D1FB /* ZJBaseCarouselCell.swift */; };
+		1A6857F026C1811800D6D1FB /* ZJImagePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6857E726C1811800D6D1FB /* ZJImagePageControl.swift */; };
+		1A68580126C1816600D6D1FB /* ZJCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6857FC26C1816600D6D1FB /* ZJCustomView.swift */; };
+		1A68580226C1816600D6D1FB /* ZJPopupViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6857FD26C1816600D6D1FB /* ZJPopupViewDelegate.swift */; };
+		1A68580326C1816600D6D1FB /* ZJPopupBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6857FE26C1816600D6D1FB /* ZJPopupBaseView.swift */; };
+		1A68580426C1816600D6D1FB /* ZJPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6857FF26C1816600D6D1FB /* ZJPopupView.swift */; };
+		1A68580526C1816600D6D1FB /* ZJAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A68580026C1816600D6D1FB /* ZJAlertController.swift */; };
+		1A68580B26C1827300D6D1FB /* ZJImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A68580A26C1827300D6D1FB /* ZJImageView+Kingfisher.swift */; };
+		1A68581026C2BFBA00D6D1FB /* ZJHomeCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A68580F26C2BFBA00D6D1FB /* ZJHomeCategoryCell.swift */; };
+		1A68581526C2D4E900D6D1FB /* ZJAdvertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A68581426C2D4E900D6D1FB /* ZJAdvertsView.swift */; };
+		1A68581A26C2D61100D6D1FB /* ZJAdvertsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A68581926C2D61100D6D1FB /* ZJAdvertsCell.swift */; };
+		1A68581F26C2DDC200D6D1FB /* ZJBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A68581E26C2DDC200D6D1FB /* ZJBannerView.swift */; };
+		1AC6CEC026BDB3330022787B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC6CEBF26BDB3330022787B /* AppDelegate.swift */; };
+		1AC6CEC726BDB3330022787B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC6CEC526BDB3330022787B /* Main.storyboard */; };
+		1AC6CEC926BDB3340022787B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AC6CEC826BDB3340022787B /* Assets.xcassets */; };
+		1AC6CECC26BDB3340022787B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC6CECA26BDB3340022787B /* LaunchScreen.storyboard */; };
+		1AC6CED726BDB3350022787B /* douyuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC6CED626BDB3350022787B /* douyuTests.swift */; };
+		1AC6CEE226BDB3350022787B /* douyuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC6CEE126BDB3350022787B /* douyuUITests.swift */; };
+		1AD5CB0026BF04B9004167AE /* ZJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5CAFF26BF04B9004167AE /* ZJTabBarController.swift */; };
+		1AD5CB0826BF04E7004167AE /* ZJNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5CB0726BF04E7004167AE /* ZJNavigationController.swift */; };
+		1AD5CB0D26BF0573004167AE /* ZJBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5CB0C26BF0573004167AE /* ZJBaseViewController.swift */; };
+		1AD5CB2C26BF0801004167AE /* ZJHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5CB2B26BF0801004167AE /* ZJHomeViewController.swift */; };
+		1AD5CB3C26BF0904004167AE /* ZJMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5CB3B26BF0904004167AE /* ZJMineViewController.swift */; };
+		1AD5CB4526BF0923004167AE /* ZJFishClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5CB4426BF0923004167AE /* ZJFishClubViewController.swift */; };
+		1AD5CB4E26BF093B004167AE /* ZJFollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5CB4D26BF093B004167AE /* ZJFollowViewController.swift */; };
+		1AD5CB5726BF094E004167AE /* ZJRecreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5CB5626BF094E004167AE /* ZJRecreationViewController.swift */; };
+		1AD5CB7226BF1784004167AE /* gif_tabYuba.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1AD5CB6C26BF1781004167AE /* gif_tabYuba.gif */; };
+		1AD5CB7326BF1784004167AE /* gif_tabYule.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1AD5CB6D26BF1782004167AE /* gif_tabYule.gif */; };
+		1AD5CB7426BF1784004167AE /* gift_tabCommunity.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1AD5CB6E26BF1782004167AE /* gift_tabCommunity.gif */; };
+		1AD5CB7526BF1784004167AE /* gif_tabLive.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1AD5CB6F26BF1783004167AE /* gif_tabLive.gif */; };
+		1AD5CB7626BF1784004167AE /* gif_tabMine.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1AD5CB7026BF1784004167AE /* gif_tabMine.gif */; };
+		1AD5CB7726BF1784004167AE /* gif_tabFocus.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1AD5CB7126BF1784004167AE /* gif_tabFocus.gif */; };
+		1AD5CB8026BFDF57004167AE /* ZJNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5CB7D26BFDF57004167AE /* ZJNotificationName.swift */; };
+		1AD5CB8126BFDF57004167AE /* ZJColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5CB7E26BFDF57004167AE /* ZJColor.swift */; };
+		1AD5CB8226BFDF57004167AE /* ZJFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5CB7F26BFDF57004167AE /* ZJFont.swift */; };
+		1AD5CB8726C0278B004167AE /* ZJCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5CB8626C0278B004167AE /* ZJCommon.swift */; };
+		1AD5CBA426C03291004167AE /* ZJPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5CBA026C03291004167AE /* ZJPageTitleView.swift */; };
+		1AD5CBA526C03291004167AE /* ZJPageOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5CBA126C03291004167AE /* ZJPageOptions.swift */; };
+		1AD5CBA626C03291004167AE /* ZJBasePageControlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5CBA226C03291004167AE /* ZJBasePageControlCell.swift */; };
+		1AD5CBA726C03291004167AE /* ZJPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5CBA326C03291004167AE /* ZJPageContentView.swift */; };
+		1AD5CBB926C034DF004167AE /* ZJHomeLiveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5CBB826C034DF004167AE /* ZJHomeLiveController.swift */; };
+		1AD5CBBE26C03514004167AE /* ZJHomeCommunityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5CBBD26C03514004167AE /* ZJHomeCommunityController.swift */; };
+		7735A72B155B6B473F70818E /* Pods_douyuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAAF2B8261FFC2DD412CA700 /* Pods_douyuTests.framework */; };
+		815CEF01683A6AA574395BB5 /* Pods_douyu_douyuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8E9ABF3D8C55831AE81F39 /* Pods_douyu_douyuUITests.framework */; };
+		9FCD05FC450DDF8A085D461D /* Pods_douyu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E448190CD1D76CCA719C86 /* Pods_douyu.framework */; };
+		F3BC632C26C0D5B6005CB7F7 /* ZJHomeVideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC632B26C0D5B6005CB7F7 /* ZJHomeVideoController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AC6CED326BDB3350022787B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AC6CEB426BDB3330022787B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AC6CEBB26BDB3330022787B;
+			remoteInfo = douyu;
+		};
+		1AC6CEDE26BDB3350022787B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AC6CEB426BDB3330022787B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AC6CEBB26BDB3330022787B;
+			remoteInfo = douyu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C7C87B3D704CB302DA08581 /* Pods-douyu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-douyu.debug.xcconfig"; path = "Target Support Files/Pods-douyu/Pods-douyu.debug.xcconfig"; sourceTree = "<group>"; };
+		0F8E9ABF3D8C55831AE81F39 /* Pods_douyu_douyuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_douyu_douyuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E448190CD1D76CCA719C86 /* Pods_douyu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_douyu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1862684EEED90BB8AD4D34E6 /* Pods-douyu-douyuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-douyu-douyuUITests.release.xcconfig"; path = "Target Support Files/Pods-douyu-douyuUITests/Pods-douyu-douyuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1A1E237826C4253100DBD24E /* ZJSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJSearchView.swift; sourceTree = "<group>"; };
+		1A1E239226C57B2500DBD24E /* HomeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAPI.swift; sourceTree = "<group>"; };
+		1A1E239726C57F6E00DBD24E /* ZJNetworkProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJNetworkProvider.swift; sourceTree = "<group>"; };
+		1A1E241126C8453800DBD24E /* ZJAdviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJAdviceInfo.swift; sourceTree = "<group>"; };
+		1A1E241726C8C5FC00DBD24E /* HomeTabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabModel.swift; sourceTree = "<group>"; };
+		1A1E242026C9604900DBD24E /* ZJHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJHomeViewModel.swift; sourceTree = "<group>"; };
+		1A1E243926CAB7A800DBD24E /* ZJHomeLiveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJHomeLiveViewModel.swift; sourceTree = "<group>"; };
+		1A1E244126CAB89B00DBD24E /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
+		1A68579626C162F500D6D1FB /* ZJBaseCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJBaseCollectionCell.swift; sourceTree = "<group>"; };
+		1A68579726C162F500D6D1FB /* ZJBaseTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJBaseTableCell.swift; sourceTree = "<group>"; };
+		1A68579826C162F500D6D1FB /* ZJBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJBaseView.swift; sourceTree = "<group>"; };
+		1A68579F26C1636400D6D1FB /* ZJHomeLiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJHomeLiveCell.swift; sourceTree = "<group>"; };
+		1A6857AF26C16DB300D6D1FB /* ZJHomeLiveHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJHomeLiveHeaderView.swift; sourceTree = "<group>"; };
+		1A6857DE26C1801E00D6D1FB /* ZJHomeBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJHomeBannerCell.swift; sourceTree = "<group>"; };
+		1A6857E426C1811800D6D1FB /* ZJCarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJCarouselView.swift; sourceTree = "<group>"; };
+		1A6857E526C1811800D6D1FB /* ZJCarouselCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJCarouselCell.swift; sourceTree = "<group>"; };
+		1A6857E626C1811800D6D1FB /* ZJBaseCarouselCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJBaseCarouselCell.swift; sourceTree = "<group>"; };
+		1A6857E726C1811800D6D1FB /* ZJImagePageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJImagePageControl.swift; sourceTree = "<group>"; };
+		1A6857FC26C1816600D6D1FB /* ZJCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJCustomView.swift; sourceTree = "<group>"; };
+		1A6857FD26C1816600D6D1FB /* ZJPopupViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJPopupViewDelegate.swift; sourceTree = "<group>"; };
+		1A6857FE26C1816600D6D1FB /* ZJPopupBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJPopupBaseView.swift; sourceTree = "<group>"; };
+		1A6857FF26C1816600D6D1FB /* ZJPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJPopupView.swift; sourceTree = "<group>"; };
+		1A68580026C1816600D6D1FB /* ZJAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJAlertController.swift; sourceTree = "<group>"; };
+		1A68580A26C1827300D6D1FB /* ZJImageView+Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ZJImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		1A68580F26C2BFBA00D6D1FB /* ZJHomeCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJHomeCategoryCell.swift; sourceTree = "<group>"; };
+		1A68581426C2D4E900D6D1FB /* ZJAdvertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJAdvertsView.swift; sourceTree = "<group>"; };
+		1A68581926C2D61100D6D1FB /* ZJAdvertsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJAdvertsCell.swift; sourceTree = "<group>"; };
+		1A68581E26C2DDC200D6D1FB /* ZJBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJBannerView.swift; sourceTree = "<group>"; };
+		1AC6CEBC26BDB3330022787B /* douyu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = douyu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC6CEBF26BDB3330022787B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AC6CEC626BDB3330022787B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AC6CEC826BDB3340022787B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AC6CECB26BDB3340022787B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AC6CECD26BDB3340022787B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AC6CED226BDB3350022787B /* douyuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = douyuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC6CED626BDB3350022787B /* douyuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = douyuTests.swift; sourceTree = "<group>"; };
+		1AC6CED826BDB3350022787B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AC6CEDD26BDB3350022787B /* douyuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = douyuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC6CEE126BDB3350022787B /* douyuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = douyuUITests.swift; sourceTree = "<group>"; };
+		1AC6CEE326BDB3350022787B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD5CAFF26BF04B9004167AE /* ZJTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJTabBarController.swift; sourceTree = "<group>"; };
+		1AD5CB0726BF04E7004167AE /* ZJNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJNavigationController.swift; sourceTree = "<group>"; };
+		1AD5CB0C26BF0573004167AE /* ZJBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJBaseViewController.swift; sourceTree = "<group>"; };
+		1AD5CB2B26BF0801004167AE /* ZJHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJHomeViewController.swift; sourceTree = "<group>"; };
+		1AD5CB3B26BF0904004167AE /* ZJMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJMineViewController.swift; sourceTree = "<group>"; };
+		1AD5CB4426BF0923004167AE /* ZJFishClubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJFishClubViewController.swift; sourceTree = "<group>"; };
+		1AD5CB4D26BF093B004167AE /* ZJFollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJFollowViewController.swift; sourceTree = "<group>"; };
+		1AD5CB5626BF094E004167AE /* ZJRecreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJRecreationViewController.swift; sourceTree = "<group>"; };
+		1AD5CB6C26BF1781004167AE /* gif_tabYuba.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif_tabYuba.gif; sourceTree = "<group>"; };
+		1AD5CB6D26BF1782004167AE /* gif_tabYule.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif_tabYule.gif; sourceTree = "<group>"; };
+		1AD5CB6E26BF1782004167AE /* gift_tabCommunity.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gift_tabCommunity.gif; sourceTree = "<group>"; };
+		1AD5CB6F26BF1783004167AE /* gif_tabLive.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif_tabLive.gif; sourceTree = "<group>"; };
+		1AD5CB7026BF1784004167AE /* gif_tabMine.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif_tabMine.gif; sourceTree = "<group>"; };
+		1AD5CB7126BF1784004167AE /* gif_tabFocus.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif_tabFocus.gif; sourceTree = "<group>"; };
+		1AD5CB7D26BFDF57004167AE /* ZJNotificationName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJNotificationName.swift; sourceTree = "<group>"; };
+		1AD5CB7E26BFDF57004167AE /* ZJColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJColor.swift; sourceTree = "<group>"; };
+		1AD5CB7F26BFDF57004167AE /* ZJFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJFont.swift; sourceTree = "<group>"; };
+		1AD5CB8626C0278B004167AE /* ZJCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJCommon.swift; sourceTree = "<group>"; };
+		1AD5CBA026C03291004167AE /* ZJPageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJPageTitleView.swift; sourceTree = "<group>"; };
+		1AD5CBA126C03291004167AE /* ZJPageOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJPageOptions.swift; sourceTree = "<group>"; };
+		1AD5CBA226C03291004167AE /* ZJBasePageControlCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJBasePageControlCell.swift; sourceTree = "<group>"; };
+		1AD5CBA326C03291004167AE /* ZJPageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJPageContentView.swift; sourceTree = "<group>"; };
+		1AD5CBB826C034DF004167AE /* ZJHomeLiveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJHomeLiveController.swift; sourceTree = "<group>"; };
+		1AD5CBBD26C03514004167AE /* ZJHomeCommunityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJHomeCommunityController.swift; sourceTree = "<group>"; };
+		4D88AB978DAF3C207958A945 /* Pods-douyuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-douyuTests.release.xcconfig"; path = "Target Support Files/Pods-douyuTests/Pods-douyuTests.release.xcconfig"; sourceTree = "<group>"; };
+		A0893750E0D9E8BB803C715B /* Pods-douyu-douyuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-douyu-douyuUITests.debug.xcconfig"; path = "Target Support Files/Pods-douyu-douyuUITests/Pods-douyu-douyuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CAAF2B8261FFC2DD412CA700 /* Pods_douyuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_douyuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BC632B26C0D5B6005CB7F7 /* ZJHomeVideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJHomeVideoController.swift; sourceTree = "<group>"; };
+		FA99BFE4D0B8F01299E49356 /* Pods-douyuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-douyuTests.debug.xcconfig"; path = "Target Support Files/Pods-douyuTests/Pods-douyuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDE74052956B66D4BC4D724D /* Pods-douyu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-douyu.release.xcconfig"; path = "Target Support Files/Pods-douyu/Pods-douyu.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AC6CEB926BDB3330022787B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FCD05FC450DDF8A085D461D /* Pods_douyu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC6CECF26BDB3350022787B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7735A72B155B6B473F70818E /* Pods_douyuTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC6CEDA26BDB3350022787B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815CEF01683A6AA574395BB5 /* Pods_douyu_douyuUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E209AD19818E4A87401E1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C7C87B3D704CB302DA08581 /* Pods-douyu.debug.xcconfig */,
+				FDE74052956B66D4BC4D724D /* Pods-douyu.release.xcconfig */,
+				A0893750E0D9E8BB803C715B /* Pods-douyu-douyuUITests.debug.xcconfig */,
+				1862684EEED90BB8AD4D34E6 /* Pods-douyu-douyuUITests.release.xcconfig */,
+				FA99BFE4D0B8F01299E49356 /* Pods-douyuTests.debug.xcconfig */,
+				4D88AB978DAF3C207958A945 /* Pods-douyuTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1A1E237D26C4313300DBD24E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1A1E239726C57F6E00DBD24E /* ZJNetworkProvider.swift */,
+				1A1E239226C57B2500DBD24E /* HomeAPI.swift */,
+				1A1E244126CAB89B00DBD24E /* BaseAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1A1E241626C8C5CF00DBD24E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A1E241726C8C5FC00DBD24E /* HomeTabModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A1E241F26C9601300DBD24E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1A1E242026C9604900DBD24E /* ZJHomeViewModel.swift */,
+				1A1E243926CAB7A800DBD24E /* ZJHomeLiveViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1A68579426C1629800D6D1FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A68582426C2DF2A00D6D1FB /* Adverts */,
+				1A68582326C2DF1D00D6D1FB /* Banner */,
+				1A68579F26C1636400D6D1FB /* ZJHomeLiveCell.swift */,
+				1A6857AF26C16DB300D6D1FB /* ZJHomeLiveHeaderView.swift */,
+				1A68580F26C2BFBA00D6D1FB /* ZJHomeCategoryCell.swift */,
+				1A1E237826C4253100DBD24E /* ZJSearchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A68579526C162D300D6D1FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A68579626C162F500D6D1FB /* ZJBaseCollectionCell.swift */,
+				1A68579726C162F500D6D1FB /* ZJBaseTableCell.swift */,
+				1A68579826C162F500D6D1FB /* ZJBaseView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A6857E326C1811800D6D1FB /* ZJCarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				1A6857E426C1811800D6D1FB /* ZJCarouselView.swift */,
+				1A6857E526C1811800D6D1FB /* ZJCarouselCell.swift */,
+				1A6857E626C1811800D6D1FB /* ZJBaseCarouselCell.swift */,
+				1A6857E726C1811800D6D1FB /* ZJImagePageControl.swift */,
+			);
+			path = ZJCarouselView;
+			sourceTree = "<group>";
+		};
+		1A6857FB26C1816600D6D1FB /* ZJPopupView */ = {
+			isa = PBXGroup;
+			children = (
+				1A6857FC26C1816600D6D1FB /* ZJCustomView.swift */,
+				1A6857FD26C1816600D6D1FB /* ZJPopupViewDelegate.swift */,
+				1A6857FE26C1816600D6D1FB /* ZJPopupBaseView.swift */,
+				1A6857FF26C1816600D6D1FB /* ZJPopupView.swift */,
+				1A68580026C1816600D6D1FB /* ZJAlertController.swift */,
+			);
+			path = ZJPopupView;
+			sourceTree = "<group>";
+		};
+		1A68580926C1826400D6D1FB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1A68580A26C1827300D6D1FB /* ZJImageView+Kingfisher.swift */,
+				1A1E241126C8453800DBD24E /* ZJAdviceInfo.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1A68582326C2DF1D00D6D1FB /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				1A6857DE26C1801E00D6D1FB /* ZJHomeBannerCell.swift */,
+				1A68581E26C2DDC200D6D1FB /* ZJBannerView.swift */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		1A68582426C2DF2A00D6D1FB /* Adverts */ = {
+			isa = PBXGroup;
+			children = (
+				1A68581426C2D4E900D6D1FB /* ZJAdvertsView.swift */,
+				1A68581926C2D61100D6D1FB /* ZJAdvertsCell.swift */,
+			);
+			path = Adverts;
+			sourceTree = "<group>";
+		};
+		1AC6CEB326BDB3330022787B = {
+			isa = PBXGroup;
+			children = (
+				1AC6CEBE26BDB3330022787B /* douyu */,
+				1AC6CED526BDB3350022787B /* douyuTests */,
+				1AC6CEE026BDB3350022787B /* douyuUITests */,
+				1AC6CEBD26BDB3330022787B /* Products */,
+				18E209AD19818E4A87401E1D /* Pods */,
+				C330845ED4EFD6DED8397C26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1AC6CEBD26BDB3330022787B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AC6CEBC26BDB3330022787B /* douyu.app */,
+				1AC6CED226BDB3350022787B /* douyuTests.xctest */,
+				1AC6CEDD26BDB3350022787B /* douyuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AC6CEBE26BDB3330022787B /* douyu */ = {
+			isa = PBXGroup;
+			children = (
+				1AD5CB5B26BF0AB5004167AE /* AppDelegate */,
+				1A1E237D26C4313300DBD24E /* Network */,
+				1AD5CAFD26BF03D8004167AE /* Module */,
+				1AD5CB7B26BFDEF3004167AE /* Commoon */,
+				1AD5CB9926C03270004167AE /* Utils */,
+				1AD5CA8426BDB79D004167AE /* Resource */,
+				1AC6CEC526BDB3330022787B /* Main.storyboard */,
+				1AC6CEC826BDB3340022787B /* Assets.xcassets */,
+				1AC6CECA26BDB3340022787B /* LaunchScreen.storyboard */,
+				1AC6CECD26BDB3340022787B /* Info.plist */,
+			);
+			path = douyu;
+			sourceTree = "<group>";
+		};
+		1AC6CED526BDB3350022787B /* douyuTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AC6CED626BDB3350022787B /* douyuTests.swift */,
+				1AC6CED826BDB3350022787B /* Info.plist */,
+			);
+			path = douyuTests;
+			sourceTree = "<group>";
+		};
+		1AC6CEE026BDB3350022787B /* douyuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AC6CEE126BDB3350022787B /* douyuUITests.swift */,
+				1AC6CEE326BDB3350022787B /* Info.plist */,
+			);
+			path = douyuUITests;
+			sourceTree = "<group>";
+		};
+		1AD5CA8426BDB79D004167AE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1AD5CB6B26BF1768004167AE /* TabImage */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		1AD5CAFD26BF03D8004167AE /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				1AD5CB2926BF076B004167AE /* Home(推荐) */,
+				1AD5CB3326BF083C004167AE /* Recreation(娱乐) */,
+				1AD5CB3726BF0898004167AE /* Follow(关注) */,
+				1AD5CB3826BF08C6004167AE /* FishClub(鱼吧) */,
+				1AD5CB3926BF08E4004167AE /* Mine(我的) */,
+				1AD5CAFE26BF03E9004167AE /* Main */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		1AD5CAFE26BF03E9004167AE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1AD5CAFF26BF04B9004167AE /* ZJTabBarController.swift */,
+				1AD5CB0726BF04E7004167AE /* ZJNavigationController.swift */,
+				1AD5CB0C26BF0573004167AE /* ZJBaseViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1AD5CB2926BF076B004167AE /* Home(推荐) */ = {
+			isa = PBXGroup;
+			children = (
+				1A1E241F26C9601300DBD24E /* ViewModel */,
+				1A1E241626C8C5CF00DBD24E /* Model */,
+				1A68579426C1629800D6D1FB /* View */,
+				1AD5CB2A26BF0794004167AE /* Controller */,
+			);
+			path = "Home(推荐)";
+			sourceTree = "<group>";
+		};
+		1AD5CB2A26BF0794004167AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AD5CB2B26BF0801004167AE /* ZJHomeViewController.swift */,
+				1AD5CBB826C034DF004167AE /* ZJHomeLiveController.swift */,
+				1AD5CBBD26C03514004167AE /* ZJHomeCommunityController.swift */,
+				F3BC632B26C0D5B6005CB7F7 /* ZJHomeVideoController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1AD5CB3326BF083C004167AE /* Recreation(娱乐) */ = {
+			isa = PBXGroup;
+			children = (
+				1AD5CB5526BF093E004167AE /* Controller */,
+			);
+			path = "Recreation(娱乐)";
+			sourceTree = "<group>";
+		};
+		1AD5CB3726BF0898004167AE /* Follow(关注) */ = {
+			isa = PBXGroup;
+			children = (
+				1AD5CB4C26BF0928004167AE /* Controller */,
+			);
+			path = "Follow(关注)";
+			sourceTree = "<group>";
+		};
+		1AD5CB3826BF08C6004167AE /* FishClub(鱼吧) */ = {
+			isa = PBXGroup;
+			children = (
+				1AD5CB4326BF090B004167AE /* Controller */,
+			);
+			path = "FishClub(鱼吧)";
+			sourceTree = "<group>";
+		};
+		1AD5CB3926BF08E4004167AE /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				1AD5CB3A26BF08F3004167AE /* Controller */,
+			);
+			path = "Mine(我的)";
+			sourceTree = "<group>";
+		};
+		1AD5CB3A26BF08F3004167AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AD5CB3B26BF0904004167AE /* ZJMineViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1AD5CB4326BF090B004167AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AD5CB4426BF0923004167AE /* ZJFishClubViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1AD5CB4C26BF0928004167AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AD5CB4D26BF093B004167AE /* ZJFollowViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1AD5CB5526BF093E004167AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AD5CB5626BF094E004167AE /* ZJRecreationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1AD5CB5B26BF0AB5004167AE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1AC6CEBF26BDB3330022787B /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1AD5CB6B26BF1768004167AE /* TabImage */ = {
+			isa = PBXGroup;
+			children = (
+				1AD5CB7126BF1784004167AE /* gif_tabFocus.gif */,
+				1AD5CB6F26BF1783004167AE /* gif_tabLive.gif */,
+				1AD5CB7026BF1784004167AE /* gif_tabMine.gif */,
+				1AD5CB6C26BF1781004167AE /* gif_tabYuba.gif */,
+				1AD5CB6D26BF1782004167AE /* gif_tabYule.gif */,
+				1AD5CB6E26BF1782004167AE /* gift_tabCommunity.gif */,
+			);
+			path = TabImage;
+			sourceTree = "<group>";
+		};
+		1AD5CB7B26BFDEF3004167AE /* Commoon */ = {
+			isa = PBXGroup;
+			children = (
+				1A68580926C1826400D6D1FB /* Extension */,
+				1A68579526C162D300D6D1FB /* View */,
+				1AD5CB7C26BFDF26004167AE /* Macro */,
+				1AD5CB8626C0278B004167AE /* ZJCommon.swift */,
+			);
+			path = Commoon;
+			sourceTree = "<group>";
+		};
+		1AD5CB7C26BFDF26004167AE /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				1AD5CB7E26BFDF57004167AE /* ZJColor.swift */,
+				1AD5CB7F26BFDF57004167AE /* ZJFont.swift */,
+				1AD5CB7D26BFDF57004167AE /* ZJNotificationName.swift */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		1AD5CB9926C03270004167AE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1A6857FB26C1816600D6D1FB /* ZJPopupView */,
+				1A6857E326C1811800D6D1FB /* ZJCarouselView */,
+				1AD5CB9F26C03291004167AE /* ZJPageView */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1AD5CB9F26C03291004167AE /* ZJPageView */ = {
+			isa = PBXGroup;
+			children = (
+				1AD5CBA026C03291004167AE /* ZJPageTitleView.swift */,
+				1AD5CBA126C03291004167AE /* ZJPageOptions.swift */,
+				1AD5CBA226C03291004167AE /* ZJBasePageControlCell.swift */,
+				1AD5CBA326C03291004167AE /* ZJPageContentView.swift */,
+			);
+			path = ZJPageView;
+			sourceTree = "<group>";
+		};
+		C330845ED4EFD6DED8397C26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15E448190CD1D76CCA719C86 /* Pods_douyu.framework */,
+				0F8E9ABF3D8C55831AE81F39 /* Pods_douyu_douyuUITests.framework */,
+				CAAF2B8261FFC2DD412CA700 /* Pods_douyuTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AC6CEBB26BDB3330022787B /* douyu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC6CEE626BDB3350022787B /* Build configuration list for PBXNativeTarget "douyu" */;
+			buildPhases = (
+				08A11B0DBAAFA0A75283FDDB /* [CP] Check Pods Manifest.lock */,
+				1AC6CEB826BDB3330022787B /* Sources */,
+				1AC6CEB926BDB3330022787B /* Frameworks */,
+				1AC6CEBA26BDB3330022787B /* Resources */,
+				FE9D0613A3F8D7874EAD60F3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = douyu;
+			productName = douyu;
+			productReference = 1AC6CEBC26BDB3330022787B /* douyu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AC6CED126BDB3350022787B /* douyuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC6CEE926BDB3350022787B /* Build configuration list for PBXNativeTarget "douyuTests" */;
+			buildPhases = (
+				FE93684F467C37D2FB07F736 /* [CP] Check Pods Manifest.lock */,
+				1AC6CECE26BDB3350022787B /* Sources */,
+				1AC6CECF26BDB3350022787B /* Frameworks */,
+				1AC6CED026BDB3350022787B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AC6CED426BDB3350022787B /* PBXTargetDependency */,
+			);
+			name = douyuTests;
+			productName = douyuTests;
+			productReference = 1AC6CED226BDB3350022787B /* douyuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AC6CEDC26BDB3350022787B /* douyuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC6CEEC26BDB3350022787B /* Build configuration list for PBXNativeTarget "douyuUITests" */;
+			buildPhases = (
+				18044C7CB787DA3E17F80420 /* [CP] Check Pods Manifest.lock */,
+				1AC6CED926BDB3350022787B /* Sources */,
+				1AC6CEDA26BDB3350022787B /* Frameworks */,
+				1AC6CEDB26BDB3350022787B /* Resources */,
+				5FC3216B53991460E9FA6711 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AC6CEDF26BDB3350022787B /* PBXTargetDependency */,
+			);
+			name = douyuUITests;
+			productName = douyuUITests;
+			productReference = 1AC6CEDD26BDB3350022787B /* douyuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AC6CEB426BDB3330022787B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZJ;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1AC6CEBB26BDB3330022787B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					1AC6CED126BDB3350022787B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1AC6CEBB26BDB3330022787B;
+					};
+					1AC6CEDC26BDB3350022787B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1AC6CEBB26BDB3330022787B;
+					};
+				};
+			};
+			buildConfigurationList = 1AC6CEB726BDB3330022787B /* Build configuration list for PBXProject "douyu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AC6CEB326BDB3330022787B;
+			productRefGroup = 1AC6CEBD26BDB3330022787B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AC6CEBB26BDB3330022787B /* douyu */,
+				1AC6CED126BDB3350022787B /* douyuTests */,
+				1AC6CEDC26BDB3350022787B /* douyuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AC6CEBA26BDB3330022787B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD5CB7626BF1784004167AE /* gif_tabMine.gif in Resources */,
+				1AD5CB7726BF1784004167AE /* gif_tabFocus.gif in Resources */,
+				1AD5CB7426BF1784004167AE /* gift_tabCommunity.gif in Resources */,
+				1AD5CB7526BF1784004167AE /* gif_tabLive.gif in Resources */,
+				1AD5CB7226BF1784004167AE /* gif_tabYuba.gif in Resources */,
+				1AC6CECC26BDB3340022787B /* LaunchScreen.storyboard in Resources */,
+				1AC6CEC926BDB3340022787B /* Assets.xcassets in Resources */,
+				1AD5CB7326BF1784004167AE /* gif_tabYule.gif in Resources */,
+				1AC6CEC726BDB3330022787B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC6CED026BDB3350022787B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC6CEDB26BDB3350022787B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08A11B0DBAAFA0A75283FDDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-douyu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18044C7CB787DA3E17F80420 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-douyu-douyuUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FC3216B53991460E9FA6711 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-douyu-douyuUITests/Pods-douyu-douyuUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-douyu-douyuUITests/Pods-douyu-douyuUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-douyu-douyuUITests/Pods-douyu-douyuUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE93684F467C37D2FB07F736 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-douyuTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE9D0613A3F8D7874EAD60F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-douyu/Pods-douyu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-douyu/Pods-douyu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-douyu/Pods-douyu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AC6CEB826BDB3330022787B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A68580326C1816600D6D1FB /* ZJPopupBaseView.swift in Sources */,
+				1A1E237926C4253100DBD24E /* ZJSearchView.swift in Sources */,
+				1A6857DF26C1801E00D6D1FB /* ZJHomeBannerCell.swift in Sources */,
+				1AD5CBA426C03291004167AE /* ZJPageTitleView.swift in Sources */,
+				1A1E243A26CAB7A800DBD24E /* ZJHomeLiveViewModel.swift in Sources */,
+				1A1E239326C57B2500DBD24E /* HomeAPI.swift in Sources */,
+				1AD5CB3C26BF0904004167AE /* ZJMineViewController.swift in Sources */,
+				1AC6CEC026BDB3330022787B /* AppDelegate.swift in Sources */,
+				1A68581026C2BFBA00D6D1FB /* ZJHomeCategoryCell.swift in Sources */,
+				1AD5CB0D26BF0573004167AE /* ZJBaseViewController.swift in Sources */,
+				1A68580426C1816600D6D1FB /* ZJPopupView.swift in Sources */,
+				1A68580226C1816600D6D1FB /* ZJPopupViewDelegate.swift in Sources */,
+				1AD5CB8726C0278B004167AE /* ZJCommon.swift in Sources */,
+				1A68580126C1816600D6D1FB /* ZJCustomView.swift in Sources */,
+				1A68579A26C162F500D6D1FB /* ZJBaseTableCell.swift in Sources */,
+				1AD5CB4E26BF093B004167AE /* ZJFollowViewController.swift in Sources */,
+				1A6857B026C16DB300D6D1FB /* ZJHomeLiveHeaderView.swift in Sources */,
+				1AD5CB0826BF04E7004167AE /* ZJNavigationController.swift in Sources */,
+				1A6857F026C1811800D6D1FB /* ZJImagePageControl.swift in Sources */,
+				1A68581526C2D4E900D6D1FB /* ZJAdvertsView.swift in Sources */,
+				1AD5CB8026BFDF57004167AE /* ZJNotificationName.swift in Sources */,
+				1A68580B26C1827300D6D1FB /* ZJImageView+Kingfisher.swift in Sources */,
+				1AD5CB8126BFDF57004167AE /* ZJColor.swift in Sources */,
+				1AD5CBBE26C03514004167AE /* ZJHomeCommunityController.swift in Sources */,
+				1AD5CB4526BF0923004167AE /* ZJFishClubViewController.swift in Sources */,
+				1AD5CBA626C03291004167AE /* ZJBasePageControlCell.swift in Sources */,
+				1A1E241226C8453800DBD24E /* ZJAdviceInfo.swift in Sources */,
+				1A6857ED26C1811800D6D1FB /* ZJCarouselView.swift in Sources */,
+				1A68580526C1816600D6D1FB /* ZJAlertController.swift in Sources */,
+				1AD5CBA526C03291004167AE /* ZJPageOptions.swift in Sources */,
+				1AD5CBB926C034DF004167AE /* ZJHomeLiveController.swift in Sources */,
+				1AD5CBA726C03291004167AE /* ZJPageContentView.swift in Sources */,
+				1A1E242126C9604900DBD24E /* ZJHomeViewModel.swift in Sources */,
+				1A6857A026C1636400D6D1FB /* ZJHomeLiveCell.swift in Sources */,
+				1A6857EE26C1811800D6D1FB /* ZJCarouselCell.swift in Sources */,
+				1A1E239826C57F6E00DBD24E /* ZJNetworkProvider.swift in Sources */,
+				1A6857EF26C1811800D6D1FB /* ZJBaseCarouselCell.swift in Sources */,
+				1AD5CB2C26BF0801004167AE /* ZJHomeViewController.swift in Sources */,
+				1A1E241826C8C5FC00DBD24E /* HomeTabModel.swift in Sources */,
+				1A68581F26C2DDC200D6D1FB /* ZJBannerView.swift in Sources */,
+				1AD5CB0026BF04B9004167AE /* ZJTabBarController.swift in Sources */,
+				1AD5CB8226BFDF57004167AE /* ZJFont.swift in Sources */,
+				1A68581A26C2D61100D6D1FB /* ZJAdvertsCell.swift in Sources */,
+				F3BC632C26C0D5B6005CB7F7 /* ZJHomeVideoController.swift in Sources */,
+				1A68579B26C162F500D6D1FB /* ZJBaseView.swift in Sources */,
+				1A1E244226CAB89B00DBD24E /* BaseAPI.swift in Sources */,
+				1A68579926C162F500D6D1FB /* ZJBaseCollectionCell.swift in Sources */,
+				1AD5CB5726BF094E004167AE /* ZJRecreationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC6CECE26BDB3350022787B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC6CED726BDB3350022787B /* douyuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC6CED926BDB3350022787B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC6CEE226BDB3350022787B /* douyuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AC6CED426BDB3350022787B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AC6CEBB26BDB3330022787B /* douyu */;
+			targetProxy = 1AC6CED326BDB3350022787B /* PBXContainerItemProxy */;
+		};
+		1AC6CEDF26BDB3350022787B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AC6CEBB26BDB3330022787B /* douyu */;
+			targetProxy = 1AC6CEDE26BDB3350022787B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AC6CEC526BDB3330022787B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AC6CEC626BDB3330022787B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AC6CECA26BDB3340022787B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AC6CECB26BDB3340022787B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AC6CEE426BDB3350022787B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AC6CEE526BDB3350022787B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AC6CEE726BDB3350022787B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C7C87B3D704CB302DA08581 /* Pods-douyu.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R65337KS8W;
+				INFOPLIST_FILE = douyu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.douyu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AC6CEE826BDB3350022787B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDE74052956B66D4BC4D724D /* Pods-douyu.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R65337KS8W;
+				INFOPLIST_FILE = douyu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.douyu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AC6CEEA26BDB3350022787B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA99BFE4D0B8F01299E49356 /* Pods-douyuTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R65337KS8W;
+				INFOPLIST_FILE = douyuTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.douyu.douyuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/douyu.app/douyu";
+			};
+			name = Debug;
+		};
+		1AC6CEEB26BDB3350022787B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D88AB978DAF3C207958A945 /* Pods-douyuTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R65337KS8W;
+				INFOPLIST_FILE = douyuTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.douyu.douyuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/douyu.app/douyu";
+			};
+			name = Release;
+		};
+		1AC6CEED26BDB3350022787B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0893750E0D9E8BB803C715B /* Pods-douyu-douyuUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R65337KS8W;
+				INFOPLIST_FILE = douyuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.douyu.douyuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = douyu;
+			};
+			name = Debug;
+		};
+		1AC6CEEE26BDB3350022787B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1862684EEED90BB8AD4D34E6 /* Pods-douyu-douyuUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R65337KS8W;
+				INFOPLIST_FILE = douyuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.douyu.douyuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = douyu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AC6CEB726BDB3330022787B /* Build configuration list for PBXProject "douyu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC6CEE426BDB3350022787B /* Debug */,
+				1AC6CEE526BDB3350022787B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AC6CEE626BDB3350022787B /* Build configuration list for PBXNativeTarget "douyu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC6CEE726BDB3350022787B /* Debug */,
+				1AC6CEE826BDB3350022787B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AC6CEE926BDB3350022787B /* Build configuration list for PBXNativeTarget "douyuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC6CEEA26BDB3350022787B /* Debug */,
+				1AC6CEEB26BDB3350022787B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AC6CEEC26BDB3350022787B /* Build configuration list for PBXNativeTarget "douyuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC6CEED26BDB3350022787B /* Debug */,
+				1AC6CEEE26BDB3350022787B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AC6CEB426BDB3330022787B /* Project object */;
+}

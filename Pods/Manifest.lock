@@ -1,0 +1,72 @@
+PODS:
+  - Alamofire (4.9.1)
+  - ESPullToRefresh (2.9.3)
+  - Kingfisher (4.10.1)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya-SwiftyJSONMapper (5.0.0):
+    - Moya-SwiftyJSONMapper/Core (= 5.0.0)
+  - Moya-SwiftyJSONMapper/Core (5.0.0):
+    - Moya (~> 13.0.1)
+    - SwiftyJSON
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - ObjectMapper (4.2.0)
+  - Result (4.1.0)
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
+  - SnapKit (4.2.0)
+  - SwiftyJSON (5.0.1)
+  - ZCycleView (1.0.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - ESPullToRefresh
+  - Kingfisher
+  - Moya
+  - Moya-SwiftyJSONMapper
+  - ObjectMapper
+  - RxCocoa (= 6.2.0)
+  - RxSwift (= 6.2.0)
+  - SnapKit
+  - ZCycleView
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ESPullToRefresh
+    - Kingfisher
+    - Moya
+    - Moya-SwiftyJSONMapper
+    - ObjectMapper
+    - Result
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - SwiftyJSON
+    - ZCycleView
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  ESPullToRefresh: 0d68daa602b343c81753a1b95e09fd0bfcddfd40
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Moya-SwiftyJSONMapper: f542fe5bae49af14dfaeb298995ea052a6cdc550
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  ZCycleView: cfc8d9c3b2cb6f4270375c539c60aaa59e3bb976
+
+PODFILE CHECKSUM: a269a78a19b2879102e68868d61eb31cd8d553e8
+
+COCOAPODS: 1.10.2
