@@ -111,7 +111,7 @@ public class ZJNetworkProvider{
         let requestTimeoutClosure = { (endpoint:Endpoint, done: @escaping MoyaProvider<T>.RequestResultClosure) in
             do{
                 var request = try endpoint.urlRequest()
-//                request.setValue("acf_did=3ee82da474009d4e89ced25300001621", forHTTPHeaderField: "Cookies")
+                request.setValue("acf_did=3ee82da474009d4e89ced25300001621", forHTTPHeaderField: "Cookies")
                 request.timeoutInterval = 20 //设置请求超时时间
                 done(.success(request))
             }catch{

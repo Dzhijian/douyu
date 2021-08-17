@@ -10,6 +10,7 @@ import AdSupport
 
 enum HomeAPI {
     case mCtrl
+    case fish3App
     case getinfo            // banner
     case getSlidesRec       // banner
 //    case recommendCategoryList       //分类推荐列表
@@ -24,6 +25,8 @@ extension HomeAPI : TargetType {
         switch self {
         case .mCtrl:
             return URL.init(string: "https://mconf.douyucdn.cn")!
+        case .fish3App:
+            return URL.init(string: "https://dotserver.douyucdn.cn")!
         case .getinfo:
             return URL.init(string: "https://rtbapi.douyucdn.cn")!
         case .getSlidesRec:
@@ -48,13 +51,15 @@ extension HomeAPI : TargetType {
             return "/resource/common/mCtrl.json"
         case .getSlidesRec:
             return "/mgapi/livenc/mhome/getSlidesRec"
+        case .fish3App:
+            return "/fish3/app"
         }
     }
     
     var method: Moya.Method {
         switch self {
 
-        case .getinfo,.getSlidesRec:
+        case .getinfo,.getSlidesRec,.fish3App:
             return .post
         case .mCtrl:
             return .get
@@ -74,6 +79,9 @@ extension HomeAPI : TargetType {
     
     var task: Task {
         switch self {
+        case .fish3App:
+            return .requestParameters(parameters: [:],
+                                      encoding: URLEncoding.queryString)
         case .mCtrl:
             return .requestParameters(parameters: [:],
                                       encoding: URLEncoding.queryString)
@@ -89,7 +97,7 @@ extension HomeAPI : TargetType {
             var params: [String: Any] = [:]
             params["client_sys"] = "ios"
             
-            return .requestParameters(parameters: params,
+            return .requestParameters(parameters: ["client_sys":"ios"],
                                       encoding: URLEncoding.queryString)
 //        case .recommendCategoryList:
 //            var params: [String: Any] = [:]

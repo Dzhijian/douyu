@@ -11,18 +11,35 @@ import Foundation
 func getHeaders() ->[String : String]? {
     // 配置 HTTPHeaders
     let headers: [String : String] = [
-        "charset":"utf-8",
-        "Cookies" : "acf_did=3ee82da474009d4e89ced25300001621",
-        "User-Device": "NjQxMmY2NmM4M2EzMjJlOTBmYTMzMDdkMDAwMDE1MjF8NS4wMDA=",
-        "time" : getTimeStamp(),
-        "auth" : "39cc870c6e27d283666b1a65c13b8e01",
-        "aid"  : "ios",
+//        "charset":"utf-8",
+//        "Cookies" : "acf_did=3ee82da474009d4e89ced25300001621",
+//        "User-Device": "NjQxMmY2NmM4M2EzMjJlOTBmYTMzMDdkMDAwMDE1MjF8NS4wMDA=",
+//        "time" : getTimeStamp(),
+//        "auth" : "75ea4857b35447e346aded6ef83b322f",
+//        "aid"  : "ios",
 //        "User-Agent" : "ios/7.111 (ios 12.1.2; ; iPhone 6s (A1633/A1688/A1691/A1700))",
-        "Accept-Encoding" : "br, gzip, deflate",
-        "Content-Type" : "application/x-www-form-urlencoded",
-        "Transfer-Encoding":"chunked",
-        "x-dy-traceid": "3b81f458613955f3:3b81f458613955f3:0:013758",
+//        "Accept-Encoding" : "br, gzip, deflate",
+//        "Content-Type" : "application/x-www-form-urlencoded",
+//        "Transfer-Encoding":"chunked",
+//        "x-dy-traceid": "3b81f458613955f3:3b81f458613955f3:0:013758",
 //        "TTR": "TTR"
+//
+//
+
+        "TTR": "TTR",
+        "Accept-Language": "zh-Hans-CN;q=1",
+        "time":    getTimeStamp(),
+        "auth": "75ea4857b35447e346aded6ef83b322f",
+        "User-Agent":    "ios/7.111 (ios 12.1.2; ; iPhone 6s (A1633/A1688/A1691/A1700))",
+        "aid":    "ios",
+        "x-dy-traceid": "65526249c4050cb2:65526249c4050cb2:0:016246",
+        "user-device": "M2VlODJkYTQ3NDAwOWQ0ZTg5Y2VkMjUzMDAwMDE2MjF8Ny4xMTE=",
+        "Content-Type":    "application/x-www-form-urlencoded",
+        "Cookie":   "acf_did=3ee82da474009d4e89ced25300001621",
+        "Accept-Encoding":  "gzip",
+        "Transfer-Encoding":    "chunked",
+        "charset": "utf-8"
+//        Connection    keep-alive
         ]
     return headers
 }

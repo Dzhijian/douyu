@@ -20,16 +20,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.rootViewController = root
 //        UIApplication.shared.statusBarStyle = .lightContent
         var cookieProperties = [HTTPCookiePropertyKey: String]()
-        cookieProperties[HTTPCookiePropertyKey.name] = "acf_did"
-        cookieProperties[HTTPCookiePropertyKey.value] = "3ee82da474009d4e89ced25300001621"
-        cookieProperties[HTTPCookiePropertyKey.domain] = "https://apiv3.douyucdn.cn"
-        cookieProperties[HTTPCookiePropertyKey.path] = "/"
+        cookieProperties[HTTPCookiePropertyKey.name] = "acf_did" as String
+        cookieProperties[HTTPCookiePropertyKey.value] = "3ee82da474009d4e89ced25300001621" as String
+        cookieProperties[HTTPCookiePropertyKey.domain] = "https://apiv3.douyucdn.cn" as String
+        cookieProperties[HTTPCookiePropertyKey.path] = "/" as String
         
         
         let cookie = HTTPCookie(properties: cookieProperties)
         HTTPCookieStorage.shared.setCookie(cookie!)
-
         
+        let cookieArray = HTTPCookieStorage.shared.cookies!
+        for cookie in cookieArray
+        {
+            print("name:\(cookie.name),value:\(cookie.value)")
+        }
 //        if let cookieArray = UserDefaults.standard.array(forKey: "ZJ_DOUYU_TOKEN") {
 //            for cookieData in cookieArray {
 //                if let dict = cookieData as? [HTTPCookiePropertyKey : Any] {
